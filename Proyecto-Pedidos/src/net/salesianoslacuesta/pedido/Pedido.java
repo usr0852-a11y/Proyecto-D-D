@@ -45,4 +45,14 @@ public class Pedido {
     return importeBase;
     }
 
+    public boolean esPedidoValido() {
+       if (codigo == null || codigo.isEmpty()) {
+        return false;
+       } else if (cliente == null || cliente.isEmpty()) {
+        return false;
+       } else if (importeBase <= 0) return false;
+
+       return true;
+    }
+
 }
