@@ -64,4 +64,9 @@ public class Pedido {
         return true;
     }
 
+    public String mostrarInfo() {
+        return "Código: " + codigo + "Cliente: " + cliente + 
+        "Importe base: " + importeBase + "Importe final: " + calcularImporteFinal();
+    }
+
 }
