@@ -11,5 +11,25 @@ public class PedidoNacional extends Pedido {
         this.peso = peso;
         this.urgente = urgente;
     }
+
+    // Getters
+
+    public double getPeso() {
+        return peso;
+    }
+
+    public boolean getUrgente() {
+        return urgente;
+    }
+
+    // Setters
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    public void setUrgente(boolean urgente) {
+        this.urgente = urgente;
+    }
 }
 
