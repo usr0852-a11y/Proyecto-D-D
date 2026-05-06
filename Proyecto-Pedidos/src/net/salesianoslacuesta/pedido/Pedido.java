@@ -41,4 +41,8 @@ public class Pedido {
         this.importeBase = importeBase;
     }
 
+    public double calcularImporteFinal() {
+    return importeBase;
+    }
+
 }
