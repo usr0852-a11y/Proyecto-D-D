@@ -50,5 +50,13 @@ public class PedidoNacional extends Pedido {
         }
         return importe;
     }
+
+    public void cambiarUrgencia() {
+        if (urgente) {
+            urgente = false;
+        } else {
+            urgente = true;
+        }
+    }
 }
 
