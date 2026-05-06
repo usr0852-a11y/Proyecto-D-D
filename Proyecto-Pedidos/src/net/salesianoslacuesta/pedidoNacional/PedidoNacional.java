@@ -58,5 +58,19 @@ public class PedidoNacional extends Pedido {
             urgente = true;
         }
     }
+
+    @Override
+    public String mostrarInfo() {
+        
+        String textoUrgente;
+        if (urgente) {
+            textoUrgente = "Si";
+        } else {
+            textoUrgente = "No";
+        }
+        
+        return "Código: " + getCodigo() + " Peso: " + peso + " kg" + " Urgente: " + textoUrgente + " Importe final: " + calcularImporteFinal() + " €";
+         
+    }
 }
 
