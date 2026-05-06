@@ -55,4 +55,13 @@ public class Pedido {
        return true;
     }
 
+    public boolean aplicarDescuento(double porcentaje) {
+        if (porcentaje <= 0 || porcentaje >= 100) {
+            return false;
+        }
+
+        importeBase -= importeBase * (porcentaje / 100);
+        return true;
+    }
+
 }
