@@ -69,4 +69,8 @@ public class Pedido {
         "Importe base: " + importeBase + "Importe final: " + calcularImporteFinal();
     }
 
+    public static String mostrarTotalPedidos() {
+        return "Total de pedidos " + totalPedidos;
+    }
+
 }
