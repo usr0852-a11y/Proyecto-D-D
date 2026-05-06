@@ -31,5 +31,24 @@ public class PedidoNacional extends Pedido {
     public void setUrgente(boolean urgente) {
         this.urgente = urgente;
     }
+
+    @Override
+    public double calcularImporteFinal() {
+        double importe = super.calcularImporteFinal();
+
+        if (peso <= 2) {
+            importe +=5;
+        } else if(peso >= 2 && peso <= 10) {
+            importe +=12;
+        } else {
+            importe +=20;
+        }
+
+        // Coste por ser urgente
+        if(urgente) {
+            importe +=15;
+        }
+        return importe;
+    }
 }
 
