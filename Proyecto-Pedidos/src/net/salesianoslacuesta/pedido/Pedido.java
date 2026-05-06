@@ -13,4 +13,32 @@ public class Pedido {
         this.importeBase = importeBase;
         totalPedidos++;
     }
+
+    // Getters
+
+    public String getCodigo() {
+        return codigo;
+    }
+
+    public String getCliente() {
+        return cliente;
+    }
+    public double getImporteBase() {
+        return importeBase;
+    }
+
+    // Setters
+
+    public void setCodigo(String codigo) {
+        this.codigo = codigo;
+    }
+
+    public void setCliente(String cliente) {
+        this.cliente = cliente;
+    }
+
+    public void setImporteBase(double importeBase) {
+        this.importeBase = importeBase;
+    }
+
 }
