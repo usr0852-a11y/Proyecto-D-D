@@ -66,4 +66,18 @@ public class PedidoInternacional extends Pedido {
         }
         return false;
     }
+
+    @Override
+
+    public String mostrarInfo() {
+        String textoAduanas;
+
+        if (aduanas) {
+            textoAduanas = "Si";
+        } else {
+            textoAduanas = "No";
+        }
+
+        return "Cliente: " + getCliente() + " País destino" + getPaisDestino() + " Aduanas: " + textoAduanas + " Importe final: " + calcularImporteFinal() + " €";
+    }
 }
