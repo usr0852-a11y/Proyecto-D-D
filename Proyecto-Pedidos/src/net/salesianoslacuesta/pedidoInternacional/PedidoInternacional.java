@@ -12,4 +12,27 @@ public class PedidoInternacional extends Pedido {
         this.paisDestino = paisDestino;
         this.aduanas = aduanas;
     }
+
+    // AUN FALTA CREAR GETTERS Y SETTERS Y HACER COMMIT
+
+    // Getters
+
+    public String getPaisDestino() {
+        return paisDestino;
+    }
+
+    public boolean getAduanas() {
+        return aduanas;
+    }
+
+    //Setters
+
+    public void setPaisDestino(String paisDestino) {
+        this.paisDestino = paisDestino;
+    }
+
+    public void setAduanas(boolean aduanas) {
+        this.aduanas = aduanas;
+    }
+    
 }
