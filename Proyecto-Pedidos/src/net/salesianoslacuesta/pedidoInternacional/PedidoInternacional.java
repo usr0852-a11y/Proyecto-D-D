@@ -53,5 +53,17 @@ public class PedidoInternacional extends Pedido {
             total -= 10;
         }
         return total;
+
+    }
+    
+    public boolean requiereRevisionAduanera() {
+        if (aduanas) {
+            return true;
+        }
+
+        if (!(paisDestino.equals("Francia") || paisDestino.equals("Portugal") || paisDestino.equals("Italia"))) {
+            return true;
+        }
+        return false;
     }
 }
