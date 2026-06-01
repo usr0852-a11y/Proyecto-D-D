@@ -29,6 +29,14 @@ public class App {
         mago1.mostrarInfo();
         Personaje.mostrarTotalPersonajes();
 
+        System.out.println("----------------------------");
+
+        Personaje[] reino = {viajero, guerrero1, mago1};
+
+        for (int i = 0; i < reino.length ; i++) {
+            reino[i].mostrarInfo();
+
+        }
 
     }
 }
