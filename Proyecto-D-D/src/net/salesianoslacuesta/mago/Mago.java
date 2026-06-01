@@ -10,4 +10,15 @@ public class Mago extends Personaje {
         this.elemento = elemento;
     }
 
+    // Getter
+    public String getElemento() {
+        return elemento;
+    }
+    // Setter
+    public void setElemento(String elemento) {
+        this.elemento = elemento;
+    }
+
+
+
 }
