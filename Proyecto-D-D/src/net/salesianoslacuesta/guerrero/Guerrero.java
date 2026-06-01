@@ -11,5 +11,17 @@ public class Guerrero extends Personaje {
     this.arma = arma;
 }
 
+// Getters
+    public String getArma() {
+        return arma;
+    }
+
+// Setters
+    public void setArma(String arma) {
+    this.arma = arma;
+    }
+
+
+
  
 }
