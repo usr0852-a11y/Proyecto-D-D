@@ -11,6 +11,15 @@ public class App {
         viajero.mostrarInfo();
 
         Personaje.mostrarTotalPersonajes();
-        
+
+        System.out.println("-----------------------"); //separar personajes q se vea bien en consola
+
+        Guerrero guerrero1 = new Guerrero("Thorak", 5, "Hacha doble");
+        guerrero1.ataquePesado();
+        guerrero1.descansar(10);
+        guerrero1.mostrarInfo();
+        Personaje.mostrarTotalPersonajes();
+
+
     }
 }
