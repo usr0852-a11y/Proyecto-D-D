@@ -44,7 +44,7 @@ public class Personaje  {
             System.out.println("No se puede entrenar 0 o menos niveles.");
         
         } else {
-            this.nivel += x;
+            nivel += x;
         }
     }
 
