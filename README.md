@@ -1,1 +1,11 @@
-# Proyecto-D-D
+Funcionalidades
+- Crear personajes con:
+- Nombre
+- Nivel inicial
+- Energía (0–100)
+- Entrenar para subir nivel
+- Descansar para recuperar energía
+- Gastar energía en acciones
+- Mostrar información del personaje
+- Contador global de personajes creados
+- Clase App para ejecutar pruebas
