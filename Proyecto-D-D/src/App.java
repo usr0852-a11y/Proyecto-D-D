@@ -20,6 +20,15 @@ public class App {
         guerrero1.mostrarInfo();
         Personaje.mostrarTotalPersonajes();
 
+        System.out.println("-----------------------"); 
+
+        Mago mago1 = new Mago("Lyra", 4, "Hielo");
+
+        mago1.ataqueElemental();
+        mago1.entrenar(2);
+        mago1.mostrarInfo();
+        Personaje.mostrarTotalPersonajes();
+
 
     }
 }
