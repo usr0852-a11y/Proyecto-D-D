@@ -4,7 +4,11 @@ import net.salesianoslacuesta.personaje.Personaje;
 
 public class App {
     public static void main(String[] args) throws Exception {
+<<<<<<< HEAD
          Personaje viajero = new Personaje("Eldrin", 3);
+=======
+        Personaje viajero = new Personaje("Eldrin", 3);
+>>>>>>> develop
 
         viajero.entrenar(4);
         viajero.gastarEnergia(30);
@@ -38,6 +42,9 @@ public class App {
 
         }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> develop
     }
 }
